@@ -2,6 +2,8 @@
 
 This is an example that shows you how to create a command which makes changes to the document in the active editor.
 
+# notes
+1. files under .vscode determines how to debug the source code.
 ## Demo
 
 ![demo](demo.gif)
