@@ -1,0 +1,50 @@
+{
+    "name": "encrypttext",
+    "displayName": "EncryptText",
+    "description": "Encrypt selected text",
+    "version": "0.0.1",
+    "publisher": "andrewy",
+    "private": true,
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/younthu/vs-encrypt-text.git"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.base64Decode",
+        "onCommand:extension.base64Encode"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.base64Encode",
+                "title": "Encode in base64"
+            },
+            {
+                "command": "extension.base64Decode",
+                "title": "Decode in base64"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "eslint . --ext .ts,.tsx",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.0",
+        "@types/vscode": "^1.32.0",
+        "@typescript-eslint/eslint-plugin": "^4.16.0",
+        "@typescript-eslint/parser": "^4.16.0",
+        "eslint": "^7.21.0",
+        "typescript": "^4.3.5"
+    }
+}
