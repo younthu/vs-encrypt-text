@@ -6,7 +6,7 @@ This is an example that shows you how to create a command which makes changes to
 1. files under .vscode determines how to debug the source code.
 ## Demo
 
-![demo](demo.gif)
+![demo](screenshots/encrypt_extension.gif)
 
 ## VS Code API
 
