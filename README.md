@@ -28,3 +28,9 @@ This is an example that shows you how to create a command which makes changes to
 - Run the `Run Extension` target in the Debug View. This will:
 	- Start a task `npm: watch` to compile the code
 	- Run the extension in a new VS Code window
+
+# TODO
+1. kill tab in yaml file.
+2. qr image encode/decode
+3. news/btc data
+4. Timestamp to local time convertor.
