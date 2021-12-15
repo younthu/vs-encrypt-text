@@ -1,6 +1,6 @@
-# Document Editing Sample
+# VS Code text encrypt/decrypt
 
-This is an example that shows you how to create a command which makes changes to the document in the active editor.
+This extension is for encrypt/decrypt selected text.
 
 # notes
 1. files under .vscode determines how to debug the source code.
@@ -34,3 +34,9 @@ This is an example that shows you how to create a command which makes changes to
 2. qr image encode/decode
 3. news/btc data
 4. Timestamp to local time convertor.
+
+
+# Refs
+
+1. [VSCODE-TODO-HIGHLIGHT](https://github.com/wayou/vscode-todo-highlight), 高亮TODO
+2. [vscode-redmine](https://github.com/rozpuszczalny/vscode-redmine)
